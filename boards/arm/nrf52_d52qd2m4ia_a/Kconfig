@@ -1,0 +1,13 @@
+# Kconfig - nRF52 Dynastream D52QD2M4IA-A modulue board configuration
+#
+# Copyright (c) 2017 Intel Semiconductor
+#
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NRF52_D52QD2M4IA_A
+
+config  GPIO_AS_PINRESET
+	bool "GPIO as pin reset"
+	default y
+
+endif # BOARD_NRF52_D52QD2M4IA_A

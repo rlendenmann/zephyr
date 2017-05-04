@@ -1,0 +1,9 @@
+# Kconfig - nRF52 Dynastream D52QD2M4IA-A modulue board configuration
+#
+# Copyright (c) 2017 Intel Semiconductor
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config  BOARD_NRF52_D52QD2M4IA_A
+	bool "nRF52 Dynastream D52QD2M4IA-A"
+	depends on SOC_NRF52832_QFAA
